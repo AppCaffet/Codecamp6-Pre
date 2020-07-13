@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab HTML 2</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Lab 1.2 ให้หาความเหมือนและความแตกต่างระหว่าง 2 tags ที่กำหนดให้</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Tag</td>
+                <td>สิ่งที่เหมือน</td>
+                <td>สิ่งที่แตกต่าง</td>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Tag hr & br -->
+            <tr>
+                <td>&lt;hr&gt; &  &lt;br&gt;</td>
+                <td>Empty HTML Element</td>
+                <td>
+                    &lt;br&gt; - tags defines a line break <br>
+                    &lt;hr&gt; - ขีดเส้นแบ่งหน้า
+                </td>
+            </tr>
+
+            <!-- Tag ul & ol -->
+            <tr>
+                <td>&lt;ul&gt; & &lt;ul&gt;</td>
+                <td>Nested HTML Element</td>
+                <td>
+                    &lt;ul&gt; - unorder list <br>
+                    &lt;ul&gt; - order list
+                </td>
+            </tr>
+
+            <!-- Tag select & checkbox & radio -->
+            <tr>
+                <td>&lt;select&gt; & &lt;checkbox&gt; & &lt;radio&gt;</td>
+                <td>Nested HTML Element</td>
+                <td>
+                    &lt;select&gt; - ใช้ใน dropdown list<br>
+                    &lt;checkbox&gt; - เป็น input type สามารถเลือกได้ตั้งแต่ zero - more<br>
+                    &lt;radio&gt; - เป็น input typ สามารถเลือกได้แค่อย่างเดียว
+                </td>
+            </tr>
+
+            <!-- Tag div & span -->
+            <tr>
+                <td>&lt;div&gt; & &lt;span&gt;</td>
+                <td>Nested HTML Element</td>
+                <td>
+                    &lt;div&gt; - เป็น display แบบ block<br>
+                    &lt;span&gt; - เป็น display แบบ inline
+                </td>
+            </tr>
+
+            <!-- Tag script & style -->
+            <tr>
+                <td>&lt;script&gt; & &lt;style&gt;</td>
+                <td>Nested HTML Element & Element in the tag head</td>
+                <td>
+                    &lt;script&gt; - for javascript<br>
+                    &lt;style&gt; - for css
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        </style>
+</head>
+<body>
+    <h1>Lab 1.1 - Attribute</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Tag</td>
+                <td>Attributes</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Tag h -->
+            <tr>
+                <td>&lt;h&gt;</td>
+                <td>style</td>
+                <td>ใช้ความสามารถของ css ในการจัดการตกแต่งส่วนที่เป็น <b>"หัวข้อ"</b></td>
+            </tr>
+
+            <!-- Tag p -->
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>style</td>
+                <td>ใช้ความสามารถของ css ในการจัดการตกแต่งส่วนที่เป็น <b>"ข้อความ"</b> </td>
+            </tr>
+
+            <!-- Tag div -->
+            <tr>
+                <td>&lt;div&gt;</td>
+                <td>class,id</td>
+                <td>ใช้เพื่อระบุในการเข้าไปจัดการกับ tag div นั้นๆ</td>
+            </tr>
+
+            <!-- Tag img -->
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>alt</td>
+                <td>ใช้ขึ้นข้อความรูปเวลาไม่ขึ้น</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>height</td>
+                <td>ใช้ระบุความสูงของรูป</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>sizes</td>
+                <td>ใช้ระบุขนาดสำหรับแต่ละขนาดหน้าจอ</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>src</td>
+                <td>ใช้ระบุไปยังตำแหน่งของรูปภาพ</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>width</td>
+                <td>ใช้ระบุความกว้างของรูปภาพ</td>
+            </tr>
+
+            <!-- Tag a -->
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>download</td>
+                <td>ใช้สำหรับการระบุให้ user ดาวน์โหลด</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>href</td>
+                <td>ใช้ระบุอ้างอิงไปยัง URL ที่ต้องการ</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>target</td>
+                <td>ระบุตำแหน่งการเปิดหน้าต่างเวลา user กด</td>
+            </tr>
+
+            <!-- Tag ul -->
+            <tr>
+                <td>&lt;ul&gt;</td>
+                <td>onclick</td>
+                <td>ใช้ทำงานเวลาเม้าส์มีการคลิกเข้ามา</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>ondblclick</td>
+                <td>ใช้ทำงานเวลาเม้าส์มีการดับเบิ้ลคลิกเข้ามา</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>ondrag</td>
+                <td>ใช้ในการลากวาง</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>onscroll</td>
+                <td>ใช้ในทำเป็น scroll bar</td>
+            </tr>
+
+             <!-- Tag ol -->
+             <tr>
+                <td>&lt;ol&gt;</td>
+                <td>reversed</td>
+                <td>ใช้เรียงเลขจากมากไปน้อย</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>start</td>
+                <td>ใช้ระบุตำแหน่งตัวเริ่มได้</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>type</td>
+                <td>ใช้กำหนดได้ว่าจะให้แสดงผลอออกมาเป็นชนิดไหนใน order list</td>
+            </tr>
+            <!-- Tag form -->
+            <tr>
+                <td>&lt;form&gt;</td>
+                <td>action</td>
+                <td>ใช้ระบุว่าหลังจากกด submittedจะให้ข้อมูลไปทำอะไรต่อ</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>autocomplete</td>
+                <td>ช่วยจดจำข้อมูลที่เคยใส่ input เข้าไป สามารถให้ on/off ได้</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>method</td>
+                <td>ใช้ระบุให้ http รู้ว่าจะส่งค่าข้อมูลไปแบบไหน  get/post</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>name</td>
+                <td>เป็นการใส่ชื่อให้กับฟอ์มของเรา</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>target</td>
+                <td>ใช้แสดงหน้าต่างเวลา user กด submitted</td>
+            </tr>
+
+             <!-- Tag table -->
+             <tr>
+                <td>&lt;table&gt;</td>
+                <td>style</td>
+                <td>ช้ความสามารถของ css ในการจัดการตกแต่งส่วนที่เป็น <b>"ตาราง"</b></td>
+            </tr>
+
+            <!-- Tag  button -->
+            <tr>
+                <td>&lt;button&gt;</td>
+                <td>autofocus</td>
+                <td>ใช้ระบุความโฟกัสตอนดปุ่ม</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>disabled</td>
+                <td>ใช้ระบุว่าปุ่มนี้กดไม่ได้</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>name</td>
+                <td>ตั้งชื่อให้กับปุ่ม</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>type</td>
+                <td>ใช้ระบุชนิดปุ่ม</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>value</td>
+                <td>ใช้ระบุค่าให้กับปุ่ม</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
