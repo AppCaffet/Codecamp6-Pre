@@ -1,4 +1,6 @@
 # Codecamp6-Pre
-#Sutthipong Minsakorn
-#CodeCamp Batch 6
-#HTML & CSS
+Sutthipong Minsakorn (sutthipong.882@gmail.com)
+
+CodeCamp Batch 6
+
+HTML & CSS
