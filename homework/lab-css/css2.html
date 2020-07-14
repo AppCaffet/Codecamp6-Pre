@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*tooltip container*/
+        .tooltip{
+            position:relative;
+            display: inline-block;
+            margin-right: 50px;
+            background-color: teal;
+            color:white;
+            width: 120px;
+            padding: 15px;
+            text-align:center;
+        }
+        /* tooltip text*/
+        .tooltip .toolright{
+            visibility:hidden;
+            width: 120px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 6px;
+        /* position the tooltips*/
+            position: absolute;
+            z-index: 1;
+            top: -2px;
+            left:105%;
+        }
+
+        /*Show tooltip*/
+        .tooltip:hover .toolright{
+            visibility: visible;
+        }
+
+        /*left tooltip*/
+        .tooltip .toolleft{
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 6px;
+            /*position*/
+            position: absolute;
+            z-index: 1;
+            top: -2px;
+            right: 105%;
+        }
+
+        /*show left tooltip*/
+        .tooltip:hover .toolleft{
+            visibility: visible;
+        }
+
+        /*pagination*/
+        .pagination{
+            display: inline-block;
+        }
+
+        .pagination a{
+            text-decoration: none;
+            float:left;
+            padding: 20px 20px;
+            color : black;
+        }
+
+        .pagination a:hover{
+            background-color: green;
+            color:white;
+        }
+
+        /* navigation */
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color:white;
+            text-align: center;
+            padding: 16px 16px;
+            text-decoration:none;
+        }
+
+         /* Dropdown */
+         .dropdown{
+            position: relative;
+            display:inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: black;
+            color: white;
+            min-width: 160px;
+            padding: 12px 16px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!--Tooltips -->
+    <h1>Tooltips</h1>
+    <p>A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an element:</p>
+    <div class="tooltip">right tooltips
+        <span class="toolright">right</span>
+    </div>
+    <div class="tooltip">left tooltips
+        <span class="toolleft">left</span>
+    </div>
+    
+    <!--Pagination -->
+    <h1>Pagination</h1>
+    <p>If you have a website with lots of pages, you may wish to add some sort of pagination to each page:</p>
+    <div class="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+    </div>
+
+    <!-- Navigation bar -->
+    <h1>Navigation bar</h1>
+    <p>A navigation bar (or navigation system) is a section of a graphical user interface intended to aid visitors in accessing information. Navigation bars are implemented in file browsers, web browsers and as a design element of some web sites.</p>
+    <ul>
+        <li><a href="#">menu 1</a></li>
+        <li><a href="#">menu 2</a></li>
+        <li><a href="#">menu 3</a></li>
+        <li><a href="#">menu 4</a></li>
+        <li><a href="#">menu 5</a></li>
+    </ul>
+
+    <!-- Navigation bar -->
+    <h1>Dropdown</h1>
+    <p>
+        Dropdown is a graphical control element, similar to a list box, that allows the user to choose one value from a list.
+    </p>
+    
+    <div class="dropdown">
+        <span>Dropdown</span>
+        <div class="dropdown-content">
+            <p>Hello World</p>
+        </div>
+    </div>
+</body>
+</html>
