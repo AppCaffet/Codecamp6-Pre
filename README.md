@@ -10,7 +10,7 @@ Homework HTML (Folder - lab HTML)
 
 Homework CSS (Folder - lab CSS)
 
-Homework FLEXBOX / Grid 
+Homework FLEXBOX / Grid (in Folder Lab-Css)
 
 Project 2 - Kepana (https://demo.cocobasic.com/kapena-html/?storefront=envato-elements)
 
