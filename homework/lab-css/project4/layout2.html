@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2 : (Apple)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+            font-family: 'Prompt', sans-serif;
+        }
+
+        .navbar{
+            display: flex;
+            background-color: #212121;
+            justify-content: space-evenly;
+        }
+        .navbar a{
+            padding: 1em  1em;
+            color: #EEEEEE;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover{
+            color:#E0E0E0;
+        }
+
+        .row1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .notice{
+            background-color: white ;
+            text-align: center;
+            line-height: 1.25em;
+        }
+        .notice a{
+            text-decoration: none;
+        }
+        .notice a:hover{
+            text-decoration: underline;
+        }
+        .notice h5{
+            font-weight: 100;
+        }
+
+        .row2{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .fake_img1{
+            width:100%;
+            background-color: #000000;
+        }
+        .detail1{
+            color:whitesmoke;
+            text-align: center;
+            padding: 2em;
+            letter-spacing: 0.8px;
+        }
+        .detail1 a{
+            cursor: pointer;
+            color:#1976D2;
+            margin: 0 0.5em;
+            
+        }
+        .detail1 h3{
+            color:#1976D2;
+            font-weight: bold;
+
+        }
+        .detail1 h5{
+            color: #616161;
+        }
+        .detail1 a:hover{
+            text-decoration: underline;
+        }
+
+        .row3{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .fake_img2{
+            width:100%;
+            background-color: white;
+        }
+        .detail2{
+            text-align: center;
+            padding: 2em;
+            letter-spacing: 0.8px;
+            cursor: pointer;
+        }
+        .detail2 h3{
+            color: #1976D2;
+            font-weight: lighter;
+        }
+        .detail2 a:hover{
+            text-decoration: underline;
+        }
+        .detail2 h5{
+            color: #616161;
+        }
+
+        .row4{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .fake_img3{
+            background-color: #EEEEEE;
+            width: 100%;
+        }
+        .detail4{
+            text-align: center;
+        }
+        .detail4 p{
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        .detail4 h3{
+            color: #1976D2;
+            font-weight: lighter;
+            cursor: pointer;
+        }
+        .detail4 a{
+            text-decoration: none;
+            margin: 0.5em;
+            color: #1976D2;
+            font-weight: lighter;
+        }
+        .detail4 a:hover{
+            text-decoration: underline;
+        }
+
+        .row5{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .fake_img4{
+            background-color: #E0E0E0;
+            width: 100%;
+            padding: 20px;
+        }
+        .iphone{
+            flex: 50%;
+            text-align: center;
+            background-color:white;
+            padding: 20px 10px 20px 20px;
+            
+        }
+        .iphone h3{
+            color: #1976D2;
+            font-weight: 300;
+        }
+        .iphone a{
+            color: #1976D2;
+            margin: 0 0.5em;
+        } 
+        .iphone p{
+            font-weight: 400;
+            font-size: 1.25em;
+        }
+        .watch{
+            flex: 50%;
+            text-align: center;
+            background-color: white;
+            padding: 20px 20px 20px 10px;
+            
+        }
+        .watch h3{
+            color: #1976D2;
+            font-weight: 300;
+        }
+        .watch a{
+            color: #1976D2;
+            margin: 0 0.5em;
+        } 
+        .watch p{
+            font-weight: 400;
+            font-size: 1.25em;
+        }
+        .row6{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .footer{
+            background-color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<!--navbar-->
+<div class="navbar">
+    <a href="#">Logo</a>
+    <a href="#">Mac</a>
+    <a href="#">iPad</a>
+    <a href="#">iPhone</a>
+    <a href="#">Watch</a>
+    <a href="#">TV</a>
+    <a href="#">Music</a>
+    <a href="#">Help</a>
+    <a href="#">Search</a>
+    <a href="#">Pay</a>
+
+</div>
+
+<!--flexible grid-->
+<div class="row1">
+    <!--1. notice-->
+    <div class="notice">
+        <h5>
+            <b>Apple Store กลับมาเปิดทำการแล้ว</b><br>
+            เพื่อความปลอดภัยของทุกคน เราได้ดำเนินมาตรการจำกัดจำนวนคนในร้านและขอความร่วมมือจากลูกค้าทุกคนให้สวมหน้ากากเสมอขณะอยู่ในร้าน<br>
+            หรือคุณจะ <a href="#">เลือกซื้อสินค้าผ่านช่องทางออนไลน์ </a>พร้อมรับบริการจัดส่งฟรีก็ได้เช่นกัน
+        </h5>
+    </div>
+</div>
+
+<div class="row2">
+    <!--image1-->
+    <div class="fake_img1" style="height: 480px;">
+        <div class="detail1">
+            <h1>iPhone 11</h1>
+            <h2>มีอะไรให้รักเยอะ แม้แต่ราคา <br> เริ่มต้นที่ ฿ 14,9000</h2>
+            <h5>เริ่มต้นที่ ฿ 14,900 หรือ ฿ 10,900 เมื่อนำอุปกรณ์มาแลก</h5>
+            <h3><a>ดูเพิ่มเติม</a> > <a>ซื้อ</a> ></h3>
+        </div>
+    </div>
+</div>
+
+<div class="row3">
+    <!--image2-->
+    <div class="fake_img2" style="height: 450px;">
+        <div class="detail2">
+            <h1>iPhone SE</h1>
+            <h2>พอเหมาะพอดีไปหมดซะทุกอย่าง <br></h2>
+            <h5>เริ่มต้นที่ ฿24,900 หรือ ฿19,900 เมื่อนำอุปกรณ์มาแลก</h5>
+            <h3><a>ดูเพิ่มเติม</a> > <a>ซื้อ </a> ></h3>
+        </div>
+    </div>
+</div>
+    
+<div class="row4">
+    <!--image3-->
+    <div class="fake_img3" style="height: 480px;">
+        <div class="detail4">
+            <p>ซื้อ MAC หรือ iPad สำหรับมหาวิทยาลัย<br>รับเลย AirPods</p>
+            <h3><a href="#">เลือกซื้อ</a>></h3>
+        </div>
+    </div>
+</div>
+
+<div class="row5">
+    <div class="iphone">
+        <div class="fake_img4" style="height: 450px;">
+            <div class="detail_iphone">
+                <h1>iPhone + WATCH</h1>
+                <p>ยิ่งรวมกัน พลังยิ่งทวีคูณ</h3>
+                <h3><a>ดูเพิ่มเติม</a>></h3>
+            </div>
+        </div>
+
+    </div>
+    <div class="watch">
+        <div class="fake_img4" style="height: 450px;">
+            <div class="detail_watch">
+                <h1>WATCH</h1>
+                <p>ยิ่งรวมกัน พลังยิ่งทวีคูณ</h3>
+                <h3><a>ดูเพิ่มเติม</a>></h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row6">
+    <div class="iphone">
+        <div class="fake_img4" style="height: 450px;">
+            <div class="detail_iphone">
+                <h1>iPhone + WATCH</h1>
+                <p>ยิ่งรวมกัน พลังยิ่งทวีคูณ</h3>
+                <h3><a>ดูเพิ่มเติม</a>></h3>
+            </div>
+        </div>
+
+    </div>
+    <div class="watch">
+        <div class="fake_img4" style="height: 450px;">
+            <div class="detail_watch">
+                <h1>WATCH</h1>
+                <p>ยิ่งรวมกัน พลังยิ่งทวีคูณ</h3>
+                <h3><a>ดูเพิ่มเติม</a>></h3>
+            </div>
+        </div>
+    </div>
+
+</div>   
+<!--footer-->
+<div class="footer">
+    <h2>Footer</h2>
+</div>
+</body>
+</html>
